@@ -1,0 +1,71 @@
+img{
+    height: 400px;
+    text-align: center;
+    margin: 20px ;
+    float: center;
+
+    }     
+    .body{
+    background: url('/static/images/fondo.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+
+}
+p{
+    position: relative;
+    text-align: center;
+    font-family:'roboto',serif;
+
+}
+h1{
+    
+    text-align: center;
+    font-family:'roboto',serif;
+    font-size: 25px;   
+}
+.contenedor{
+    text-align: center;
+    padding: 0 10px;
+    margin: auto;
+    
+}
+.logo{
+    
+    height: 100px;
+    float: right;
+   
+}
+.foto{
+    cursor: pointer;
+    height: 150px;
+    border-radius: 59px;
+    width: 150px;
+    float: center;
+    opacity: 0.8;
+    left: 300px;
+}
+    figure:hover{
+opacity: 0.5
+    }
+    
+    
+
+.titulo{
+    height: 200px;
+    margin: 30px;
+    font-family: 'roboto'sans-serif bold;
+
+}
+.espacio{
+
+    
+    text-align: center;
+    width: 80%;
+    float: right;
+    
+    
+
+    
+}
