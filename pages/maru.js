@@ -1,6 +1,7 @@
 import React from 'react'
 import Navegacion from '../components/Navegacion';
 import Head from 'next/head';
+import Link from 'next/link';
 
 
 const Diputados=()=> {
@@ -17,21 +18,43 @@ const Diputados=()=> {
         </Head>
         <Navegacion/>
         
-      <div  className='container-fluid'>
-      
-      <img src='/static/images/imagen-maru.jpg' className='rounded-3  float-center '></img>
-      <img src='/static/images/pan.png' className='logo rounded-3 img-fluid '></img>
-       <p>Maru Campos</p>
+      <div  className='container-fluid contenedor2'>
+      <div className='row '>
+       <div className='col-sm-4 lista '>
        
+       <ul>
+       <Link href='https://es-la.facebook.com/MaruCamposG/'>
+       <li className="fab fa-facebook-square  fa-3x" ></li>
+       </Link>
+
+       <Link href='https://twitter.com/marucampos_g/'>
+       <li className="fab fa-twitter-square fa-3x"></li>
+       </Link>
+       
+       <Link href='https://www.instagram.com/marucamposchih/?hl=es-la'>
+       <li className="fab fa-instagram-square fa-3x"></li>
+       </Link>
+       </ul>
+
+       
+       </div>
+       <div className='col-sm-4 '>
+      <img src='/static/images/imagen-maru.jpg' className='rounded-3 img-fluid imagen '></img>
+       <p>Maru Campos</p>
+       </div>
+
+       <div className='col-sm-4'>
+      <img src='/static/images/pan.png' className='rounded-3 logo   '></img>
+       </div>
        </div>
        
               
-       <div className='contenedor'>
+       <div className='container contenedor'>
            <h1>Aspiramos a un Chihuahua en el que los servicios públicos lleguen a todos, de forma óptima y eficiente. Que a las administraciones les sea posible ofrecer vialidades funcionales, alumbrado público en todas las calles, y claro, transporte público ágil y eficiente. Aspiramos a vivir en un Chihuahua en el que comprar una vivienda esté al alcance de todos, un Chihuahua construido para las personas y no para los automóviles
 </h1>
        
        </div>
-       
+     </div>  
         </>
     )
 }

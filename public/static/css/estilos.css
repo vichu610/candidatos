@@ -15,15 +15,20 @@ img{
 }
 p{
     position: relative;
-    text-align: center;
+    text-align:center;
     font-family:'roboto',serif;
+    display: center;
+   top: -15%;
+   left: 150px;
+   color: white;
 
 }
 h1{
-    
     text-align: center;
     font-family:'roboto',serif;
-    font-size: 25px;   
+    font-size: 20px;  
+    margin: 40px 90px;
+   
 }
 .contenedor{
     text-align: center;
@@ -35,6 +40,9 @@ h1{
     
     height: 100px;
     float: right;
+    margin-right: 5%;
+    position:relative;
+
    
 }
 .foto{
@@ -55,8 +63,9 @@ opacity: 0.5
 .titulo{
     height: 200px;
     margin: 30px;
-    font-family: 'roboto'sans-serif bold;
-
+    font-family: 'roboto'sans-serif bold ;
+    font-size: 28px;
+    
 }
 .espacio{
 
@@ -64,8 +73,36 @@ opacity: 0.5
     text-align: center;
     width: 80%;
     float: right;
+       
+}
+.imagen{
+    width: 100%;
     
+}
+.div{
+height: 450px;
+}
+.icono{
+height: 50px;
+align-items: center;
+}
+
+.lista ul li{
+    
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    cursor: pointer;
+    box-sizing: border-box;
+    vertical-align: top;
+    margin-top: 50px;
+    justify-content: center;
     
 
-    
+}
+
+
+.contenedor2{
+height:350px;
+
 }

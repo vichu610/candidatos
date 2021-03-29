@@ -6,11 +6,12 @@ import Link from 'next/link';
 import styled from '@emotion/styled';
 
 
-const Nav=styled.nav`
+const Nav=styled.i`
 background-color:pink;
 color:black;
 font-size:25px;
 cursor: pointer;
+border-radius:3px;
 
 `
 
