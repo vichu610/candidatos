@@ -17,7 +17,7 @@ const Diputados=()=> {
         </Head>
         <Navegacion/>
         
-       <div className='container-fluid contenedor2'>
+       < className='container-fluid contenedor2'>
        <div className='row '>
        <div className='col-sm-4 lista '>
        
@@ -49,7 +49,7 @@ const Diputados=()=> {
        
 
    
-       </div>
+       
        <div className='container contenedor'>
            <h1> Juan Carlos Loera, candidato de Morena a gubernatura de Chihuahua, se refirió a sus propuestas de campaña, destacó que tiene como objetivo apoyar a los más pobres del estado y terminar con la corrupción que otros partidos han manejado.
 </h1>
