@@ -39,8 +39,8 @@ const Diputados=()=> {
        <div className='col-sm-4 '>
        <img src='/static/images/imagen-juan.jpg' className='rounded-3 img-fluid imagen'></img>
        <p>Juan Carlos Loera</p>
-      
        </div>
+       
        <div className='col-sm-4 '>
        <img src='/static/images/morena.png' className=' rounded-3  logo'></img>
        </div>
